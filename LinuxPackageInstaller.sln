@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinuxPackageInstaller", "LinuxPackageInstaller.csproj", "{CDCC2E23-A68C-4D30-A1B5-1F1040697B94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PackageFileReader", "..\PackageFileReader\PackageFileReader.csproj", "{A95167B7-CFD7-422D-86D1-28BEF7BBDA3C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CDCC2E23-A68C-4D30-A1B5-1F1040697B94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDCC2E23-A68C-4D30-A1B5-1F1040697B94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDCC2E23-A68C-4D30-A1B5-1F1040697B94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDCC2E23-A68C-4D30-A1B5-1F1040697B94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A95167B7-CFD7-422D-86D1-28BEF7BBDA3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A95167B7-CFD7-422D-86D1-28BEF7BBDA3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A95167B7-CFD7-422D-86D1-28BEF7BBDA3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A95167B7-CFD7-422D-86D1-28BEF7BBDA3C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6AFEEF3C-F043-4CA2-8EB4-4CB684717ED4}
+	EndGlobalSection
+EndGlobal
